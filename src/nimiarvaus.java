@@ -7,7 +7,7 @@ public class nimiarvaus {
 		String arvattunimi = " ";
 		int kierroslaskuri = 0;
 		
-		while (!arvattunimi.equals("Tiina")){
+		while (!arvattunimi.equals("Emma")){
 			System.out.println("Guess my name (type stop to exit)");
 			arvattunimi = in.nextLine();
 			
@@ -25,7 +25,7 @@ public class nimiarvaus {
 			kierroslaskuri ++;
 			
 			
-			if(arvattunimi.equals("Tiina")) {
+			if(arvattunimi.equals("Emma")) {
 				System.out.println("Congratulations!\r\nYou guessed " + kierroslaskuri + " times.");
 				break;
 			}
